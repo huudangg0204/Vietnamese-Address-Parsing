@@ -1,0 +1,586 @@
+{
+  "bình dương": [
+    "bàu bàng",
+    "dầu tiếng",
+    "phú giáo",
+    "bắc tân uyên"
+  ],
+  "hà giang": [
+    "đồng văn",
+    "mèo vạc",
+    "yên minh",
+    "quản bạ",
+    "vị xuyên",
+    "bắc mê",
+    "hoàng su phì",
+    "xín mần",
+    "bắc quang",
+    "quang bình"
+  ],
+  "cao bằng": [
+    "bảo lâm",
+    "bảo lạc",
+    "hà quảng",
+    "trùng khánh",
+    "hạ lang",
+    "quảng hòa",
+    "hoà an",
+    "nguyên bình",
+    "thạch an"
+  ],
+  "bắc kạn": [
+    "pác nặm",
+    "ba bể",
+    "ngân sơn",
+    "bạch thông",
+    "chợ đồn",
+    "chợ mới",
+    "na rì"
+  ],
+  "tuyên quang": [
+    "lâm bình",
+    "na hang",
+    "chiêm hóa",
+    "hàm yên",
+    "yên sơn",
+    "sơn dương"
+  ],
+  "lào cai": [
+    "bát xát",
+    "mường khương",
+    "si ma cai",
+    "bắc hà",
+    "bảo thắng",
+    "bảo yên",
+    "văn bàn"
+  ],
+  "điện biên": [
+    "mường nhé",
+    "mường chà",
+    "tủa chùa",
+    "tuần giáo",
+    "điện biên",
+    "điện biên đông",
+    "mường ảng",
+    "nậm pồ"
+  ],
+  "lai châu": [
+    "tam đường",
+    "mường tè",
+    "sìn hồ",
+    "phong thổ",
+    "than uyên",
+    "tân uyên",
+    "nậm nhùn"
+  ],
+  "sơn la": [
+    "quỳnh nhai",
+    "thuận châu",
+    "mường la",
+    "bắc yên",
+    "phù yên",
+    "yên châu",
+    "mai sơn",
+    "sông mã",
+    "sốp cộp",
+    "vân hồ"
+  ],
+  "yên bái": [
+    "lục yên",
+    "văn yên",
+    "mù căng chải",
+    "trấn yên",
+    "trạm tấu",
+    "văn chấn",
+    "yên bình"
+  ],
+  "hoà bình": [
+    "đà bắc",
+    "lương sơn",
+    "kim bôi",
+    "cao phong",
+    "tân lạc",
+    "mai châu",
+    "lạc sơn",
+    "yên thủy",
+    "lạc thủy"
+  ],
+  "thái nguyên": [
+    "định hóa",
+    "phú lương",
+    "đồng hỷ",
+    "võ nhai",
+    "đại từ",
+    "phú bình"
+  ],
+  "lạng sơn": [
+    "tràng định",
+    "bình gia",
+    "văn lãng",
+    "cao lộc",
+    "văn quan",
+    "bắc sơn",
+    "hữu lũng",
+    "chi lăng",
+    "lộc bình",
+    "đình lập"
+  ],
+  "quảng ninh": [
+    "bình liêu",
+    "tiên yên",
+    "đầm hà",
+    "hải hà",
+    "ba chẽ",
+    "vân đồn",
+    "cô tô"
+  ],
+  "bắc giang": [
+    "yên thế",
+    "tân yên",
+    "lạng giang",
+    "lục nam",
+    "lục ngạn",
+    "sơn động",
+    "hiệp hòa"
+  ],
+  "phú thọ": [
+    "đoan hùng",
+    "hạ hoà",
+    "thanh ba",
+    "phù ninh",
+    "yên lập",
+    "cẩm khê",
+    "tam nông",
+    "lâm thao",
+    "thanh sơn",
+    "thanh thuỷ",
+    "tân sơn"
+  ],
+  "vĩnh phúc": [
+    "lập thạch",
+    "tam dương",
+    "tam đảo",
+    "bình xuyên",
+    "yên lạc",
+    "vĩnh tường",
+    "sông lô"
+  ],
+  "bắc ninh": [
+    "yên phong",
+    "tiên du",
+    "gia bình",
+    "lương tài"
+  ],
+  "hải dương": [
+    "nam sách",
+    "kim thành",
+    "thanh hà",
+    "cẩm giàng",
+    "bình giang",
+    "gia lộc",
+    "tứ kỳ",
+    "ninh giang",
+    "thanh miện"
+  ],
+  "hưng yên": [
+    "văn lâm",
+    "văn giang",
+    "yên mỹ",
+    "ân thi",
+    "khoái châu",
+    "kim động",
+    "tiên lữ",
+    "phù cừ"
+  ],
+  "thái bình": [
+    "quỳnh phụ",
+    "hưng hà",
+    "đông hưng",
+    "thái thụy",
+    "tiền hải",
+    "kiến xương",
+    "vũ thư"
+  ],
+  "hà nam": [
+    "thanh liêm",
+    "bình lục",
+    "lý nhân"
+  ],
+  "nam định": [
+    "vụ bản",
+    "ý yên",
+    "nghĩa hưng",
+    "nam trực",
+    "trực ninh",
+    "xuân trường",
+    "giao thủy",
+    "hải hậu"
+  ],
+  "ninh bình": [
+    "nho quan",
+    "gia viễn",
+    "yên khánh",
+    "kim sơn",
+    "yên mô"
+  ],
+  "thanh hóa": [
+    "mường lát",
+    "quan hóa",
+    "bá thước",
+    "quan sơn",
+    "lang chánh",
+    "ngọc lặc",
+    "cẩm thủy",
+    "thạch thành",
+    "hà trung",
+    "vĩnh lộc",
+    "yên định",
+    "thọ xuân",
+    "thường xuân",
+    "triệu sơn",
+    "thiệu hóa",
+    "hoằng hóa",
+    "hậu lộc",
+    "nga sơn",
+    "như xuân",
+    "như thanh",
+    "nông cống",
+    "quảng xương"
+  ],
+  "nghệ an": [
+    "quế phong",
+    "quỳ châu",
+    "kỳ sơn",
+    "tương dương",
+    "nghĩa đàn",
+    "quỳ hợp",
+    "quỳnh lưu",
+    "con cuông",
+    "tân kỳ",
+    "anh sơn",
+    "diễn châu",
+    "yên thành",
+    "đô lương",
+    "thanh chương",
+    "nghi lộc",
+    "nam đàn",
+    "hưng nguyên"
+  ],
+  "hà tĩnh": [
+    "hương sơn",
+    "đức thọ",
+    "vũ quang",
+    "nghi xuân",
+    "can lộc",
+    "hương khê",
+    "thạch hà",
+    "cẩm xuyên",
+    "kỳ anh"
+  ],
+  "quảng bình": [
+    "minh hóa",
+    "tuyên hóa",
+    "quảng trạch",
+    "bố trạch",
+    "quảng ninh",
+    "lệ thủy"
+  ],
+  "quảng trị": [
+    "vĩnh linh",
+    "hướng hóa",
+    "gio linh",
+    "đa krông",
+    "cam lộ",
+    "triệu phong",
+    "hải lăng",
+    "cồn cỏ"
+  ],
+  "quảng nam": [
+    "tây giang",
+    "đông giang",
+    "đại lộc",
+    "duy xuyên",
+    "quế sơn",
+    "nam giang",
+    "phước sơn",
+    "hiệp đức",
+    "thăng bình",
+    "tiên phước",
+    "bắc trà my",
+    "nam trà my",
+    "núi thành",
+    "phú ninh"
+  ],
+  "quảng ngãi": [
+    "bình sơn",
+    "trà bồng",
+    "sơn tịnh",
+    "tư nghĩa",
+    "sơn hà",
+    "sơn tây",
+    "minh long",
+    "nghĩa hành",
+    "mộ đức",
+    "ba tơ",
+    "lý sơn"
+  ],
+  "bình định": [
+    "an lão",
+    "hoài ân",
+    "phù mỹ",
+    "vĩnh thạnh",
+    "tây sơn",
+    "phù cát",
+    "tuy phước",
+    "vân canh"
+  ],
+  "phú yên": [
+    "đồng xuân",
+    "tuy an",
+    "sơn hòa",
+    "sông hinh",
+    "tây hoà",
+    "phú hoà"
+  ],
+  "khánh hòa": [
+    "cam lâm",
+    "vạn ninh",
+    "khánh vĩnh",
+    "diên khánh",
+    "khánh sơn",
+    "trường sa"
+  ],
+  "ninh thuận": [
+    "bác ái",
+    "ninh sơn",
+    "ninh hải",
+    "ninh phước",
+    "thuận bắc",
+    "thuận nam"
+  ],
+  "bình thuận": [
+    "tuy phong",
+    "bắc bình",
+    "hàm thuận bắc",
+    "hàm thuận nam",
+    "tánh linh",
+    "đức linh",
+    "hàm tân",
+    "phú quí"
+  ],
+  "kon tum": [
+    "đắk glei",
+    "ngọc hồi",
+    "đắk tô",
+    "kon plông",
+    "kon rẫy",
+    "đắk hà",
+    "sa thầy",
+    "tu mơ rông",
+    "ia h' drai"
+  ],
+  "gia lai": [
+    "kbang",
+    "đăk đoa",
+    "chư păh",
+    "ia grai",
+    "mang yang",
+    "kông chro",
+    "đức cơ",
+    "chư prông",
+    "chư sê",
+    "đăk pơ",
+    "ia pa",
+    "krông pa",
+    "phú thiện",
+    "chư pưh"
+  ],
+  "đắk lắk": [
+    "ea h'leo",
+    "ea súp",
+    "buôn đôn",
+    "cư m'gar",
+    "krông búk",
+    "krông năng",
+    "ea kar",
+    "m'đrắk",
+    "krông bông",
+    "krông pắc",
+    "krông a na",
+    "lắk",
+    "cư kuin"
+  ],
+  "đắk nông": [
+    "đăk glong",
+    "cư jút",
+    "đắk mil",
+    "krông nô",
+    "đắk song",
+    "đắk r'lấp",
+    "tuy đức"
+  ],
+  "lâm đồng": [
+    "đam rông",
+    "lạc dương",
+    "lâm hà",
+    "đơn dương",
+    "đức trọng",
+    "di linh",
+    "bảo lâm",
+    "đạ tẻh"
+  ],
+  "bình phước": [
+    "bù gia mập",
+    "lộc ninh",
+    "bù đốp",
+    "hớn quản",
+    "đồng phú",
+    "bù đăng",
+    "phú riềng"
+  ],
+  "tây ninh": [
+    "tân biên",
+    "tân châu",
+    "dương minh châu",
+    "châu thành",
+    "gò dầu",
+    "bến cầu"
+  ],
+  "đồng nai": [
+    "tân phú",
+    "vĩnh cửu",
+    "định quán",
+    "trảng bom",
+    "thống nhất",
+    "cẩm mỹ",
+    "long thành",
+    "xuân lộc",
+    "nhơn trạch"
+  ],
+  "bà rịa - vũng tàu": [
+    "châu đức",
+    "xuyên mộc",
+    "long đất",
+    "côn đảo"
+  ],
+  "long an": [
+    "tân hưng",
+    "vĩnh hưng",
+    "mộc hóa",
+    "tân thạnh",
+    "thạnh hóa",
+    "đức huệ",
+    "đức hòa",
+    "bến lức",
+    "thủ thừa",
+    "tân trụ",
+    "cần đước",
+    "cần giuộc",
+    "châu thành"
+  ],
+  "tiền giang": [
+    "tân phước",
+    "cái bè",
+    "cai lậy",
+    "châu thành",
+    "chợ gạo",
+    "gò công tây",
+    "gò công đông",
+    "tân phú đông"
+  ],
+  "bến tre": [
+    "châu thành",
+    "chợ lách",
+    "mỏ cày nam",
+    "giồng trôm",
+    "bình đại",
+    "ba tri",
+    "thạnh phú",
+    "mỏ cày bắc"
+  ],
+  "trà vinh": [
+    "càng long",
+    "cầu kè",
+    "tiểu cần",
+    "châu thành",
+    "cầu ngang",
+    "trà cú",
+    "duyên hải"
+  ],
+  "vĩnh long": [
+    "long hồ",
+    "mang thít",
+    "vũng liêm",
+    "tam bình",
+    "trà ôn",
+    "bình tân"
+  ],
+  "đồng tháp": [
+    "tân hồng",
+    "hồng ngự",
+    "tam nông",
+    "tháp mười",
+    "cao lãnh",
+    "thanh bình",
+    "lấp vò",
+    "lai vung",
+    "châu thành"
+  ],
+  "an giang": [
+    "an phú",
+    "phú tân",
+    "châu phú",
+    "tri tôn",
+    "châu thành",
+    "chợ mới",
+    "thoại sơn"
+  ],
+  "kiên giang": [
+    "kiên lương",
+    "hòn đất",
+    "tân hiệp",
+    "châu thành",
+    "giồng riềng",
+    "gò quao",
+    "an biên",
+    "an minh",
+    "vĩnh thuận",
+    "kiên hải",
+    "u minh thượng",
+    "giang thành"
+  ],
+  "hậu giang": [
+    "châu thành a",
+    "châu thành",
+    "phụng hiệp",
+    "vị thuỷ",
+    "long mỹ"
+  ],
+  "sóc trăng": [
+    "châu thành",
+    "kế sách",
+    "mỹ tú",
+    "cù lao dung",
+    "long phú",
+    "mỹ xuyên",
+    "thạnh trị",
+    "trần đề"
+  ],
+  "bạc liêu": [
+    "hồng dân",
+    "phước long",
+    "vĩnh lợi",
+    "đông hải",
+    "hoà bình"
+  ],
+  "cà mau": [
+    "u minh",
+    "thới bình",
+    "trần văn thời",
+    "cái nước",
+    "đầm dơi",
+    "năm căn",
+    "phú tân",
+    "ngọc hiển"
+  ]
+}

@@ -1,0 +1,378 @@
+2025-05-17 16:22:29,571 - json_generator - INFO - Starting JSON generation process
+2025-05-17 16:22:29,572 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 16:22:29,634 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 16:22:29,634 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 16:22:29,636 - json_generator - ERROR - Error during JSON generation: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "c:\Users\Windows\Desktop\DS108\Lab\Lab 5\generate_json_files.py", line 361, in main
+    extracted_data = extract_administrative_units(data)
+  File "c:\Users\Windows\Desktop\DS108\Lab\Lab 5\generate_json_files.py", line 140, in extract_administrative_units
+    for ward in district["Ward"]:
+                ~~~~~~~~^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+2025-05-17 16:30:24,709 - json_generator - INFO - Starting JSON generation process
+2025-05-17 16:30:24,710 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 16:30:24,772 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 16:30:24,772 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 16:30:24,777 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 16:30:24,777 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 16:30:24,778 - json_generator - INFO - Created directory: generated_json
+2025-05-17 16:30:24,779 - json_generator - INFO - Created directory: generated_json\px
+2025-05-17 16:30:24,779 - json_generator - INFO - Created directory: generated_json\qh
+2025-05-17 16:30:24,780 - json_generator - INFO - Created directory: generated_json\hcmhn
+2025-05-17 16:30:24,781 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 16:30:24,784 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 16:30:24,792 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 16:30:24,795 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 16:30:24,798 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 16:30:24,799 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 16:30:24,802 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 16:30:24,804 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 16:30:24,806 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 16:30:24,807 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 16:30:24,808 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 16:30:24,810 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 16:30:24,811 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 16:30:24,812 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 16:30:24,814 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 16:30:24,816 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 16:30:24,819 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 16:30:24,822 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 16:30:24,823 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 16:30:24,824 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 16:30:24,826 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 16:30:24,827 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 16:30:24,828 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 16:30:24,830 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 16:30:24,831 - json_generator - INFO - Validating generated JSON files
+2025-05-17 16:30:25,023 - json_generator - INFO - All files successfully validated
+2025-05-17 16:30:25,023 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 16:30:28,953 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 16:30:28,953 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 18:25:12,037 - json_generator - INFO - Starting JSON generation process
+2025-05-17 18:25:12,038 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 18:25:12,105 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 18:25:12,105 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 18:25:12,110 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 18:25:12,110 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 18:25:12,111 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 18:25:12,114 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 18:25:12,122 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 18:25:12,123 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 18:25:12,124 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 18:25:12,126 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 18:25:12,128 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 18:25:12,129 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 18:25:12,130 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 18:25:12,132 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 18:25:12,132 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 18:25:12,134 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 18:25:12,135 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 18:25:12,137 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 18:25:12,139 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 18:25:12,140 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 18:25:12,143 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 18:25:12,144 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 18:25:12,145 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 18:25:12,147 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 18:25:12,148 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 18:25:12,149 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 18:25:12,150 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 18:25:12,151 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 18:25:12,151 - json_generator - INFO - Validating generated JSON files
+2025-05-17 18:25:12,233 - json_generator - INFO - All files successfully validated
+2025-05-17 18:25:12,233 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 18:25:13,551 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 18:25:13,551 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 18:36:33,543 - json_generator - INFO - Starting JSON generation process
+2025-05-17 18:36:33,544 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 18:36:33,608 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 18:36:33,608 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 18:36:33,614 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 18:36:33,614 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 18:36:33,616 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 18:36:33,620 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 18:36:33,630 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 18:36:33,632 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 18:36:33,633 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 18:36:33,633 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 18:36:33,635 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 18:36:33,636 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 18:36:33,638 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 18:36:33,641 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 18:36:33,642 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 18:36:33,644 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 18:36:33,645 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 18:36:33,647 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 18:36:33,648 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 18:36:33,650 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 18:36:33,654 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 18:36:33,655 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 18:36:33,657 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 18:36:33,658 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 18:36:33,659 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 18:36:33,660 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 18:36:33,660 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 18:36:33,662 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 18:36:33,662 - json_generator - INFO - Validating generated JSON files
+2025-05-17 18:36:33,739 - json_generator - INFO - All files successfully validated
+2025-05-17 18:36:33,739 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 18:36:34,429 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 18:36:34,430 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 18:42:26,879 - json_generator - INFO - Starting JSON generation process
+2025-05-17 18:42:26,879 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 18:42:26,939 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 18:42:26,939 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 18:42:26,944 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 18:42:26,944 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 18:42:26,945 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 18:42:26,948 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 18:42:26,955 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 18:42:26,958 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 18:42:26,960 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 18:42:26,961 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 18:42:26,967 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 18:42:26,968 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 18:42:26,969 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 18:42:26,971 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 18:42:26,972 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 18:42:26,973 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 18:42:26,974 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 18:42:26,976 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 18:42:26,978 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 18:42:26,980 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 18:42:26,983 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 18:42:26,986 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 18:42:26,987 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 18:42:26,988 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 18:42:26,988 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 18:42:26,989 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 18:42:26,990 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 18:42:26,991 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 18:42:26,991 - json_generator - INFO - Validating generated JSON files
+2025-05-17 18:42:27,061 - json_generator - INFO - All files successfully validated
+2025-05-17 18:42:27,061 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 18:42:27,837 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 18:42:27,837 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 19:19:45,333 - json_generator - INFO - Starting JSON generation process
+2025-05-17 19:19:45,334 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 19:19:45,398 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 19:19:45,398 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 19:19:45,402 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 19:19:45,403 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 19:19:45,404 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 19:19:45,408 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 19:19:45,416 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 19:19:45,417 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 19:19:45,418 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 19:19:45,419 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 19:19:45,422 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 19:19:45,423 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 19:19:45,426 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 19:19:45,427 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 19:19:45,428 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 19:19:45,430 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 19:19:45,431 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 19:19:45,432 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 19:19:45,434 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 19:19:45,435 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 19:19:45,439 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 19:19:45,440 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 19:19:45,442 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 19:19:45,443 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 19:19:45,445 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 19:19:45,447 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 19:19:45,448 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 19:19:45,449 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 19:19:45,450 - json_generator - INFO - Validating generated JSON files
+2025-05-17 19:19:45,546 - json_generator - INFO - All files successfully validated
+2025-05-17 19:19:45,547 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 19:19:45,547 - json_generator - INFO - Fixing encoding in address_module.py
+2025-05-17 19:19:45,549 - json_generator - INFO - Created backup address_module.py.bak with encoding fixes
+2025-05-17 19:19:46,506 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 19:19:46,506 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 19:19:53,947 - json_generator - INFO - Starting JSON generation process
+2025-05-17 19:19:53,947 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 19:19:54,010 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 19:19:54,011 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 19:19:54,015 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 19:19:54,015 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 19:19:54,017 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 19:19:54,021 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 19:19:54,036 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 19:19:54,038 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 19:19:54,040 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 19:19:54,041 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 19:19:54,043 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 19:19:54,044 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 19:19:54,046 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 19:19:54,047 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 19:19:54,048 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 19:19:54,049 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 19:19:54,050 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 19:19:54,052 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 19:19:54,054 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 19:19:54,056 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 19:19:54,058 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 19:19:54,060 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 19:19:54,062 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 19:19:54,114 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 19:19:54,147 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 19:19:54,157 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 19:19:54,159 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 19:19:54,181 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 19:19:54,183 - json_generator - INFO - Validating generated JSON files
+2025-05-17 19:19:54,283 - json_generator - INFO - All files successfully validated
+2025-05-17 19:19:54,283 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 19:19:54,283 - json_generator - INFO - Fixing encoding in address_module.py
+2025-05-17 19:19:54,288 - json_generator - INFO - Created backup address_module.py.bak with encoding fixes
+2025-05-17 19:19:55,124 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 19:19:55,124 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 19:25:58,331 - json_generator - INFO - Starting JSON generation process
+2025-05-17 19:25:58,331 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 19:25:58,416 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 19:25:58,417 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 19:25:58,422 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 19:25:58,422 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 19:25:58,423 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 19:25:58,427 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 19:25:58,441 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 19:25:58,443 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 19:25:58,446 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 19:25:58,448 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 19:25:58,451 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 19:25:58,452 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 19:25:58,454 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 19:25:58,457 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 19:25:58,459 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 19:25:58,463 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 19:25:58,465 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 19:25:58,467 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 19:25:58,470 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 19:25:58,472 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 19:25:58,475 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 19:25:58,477 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 19:25:58,481 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 19:25:58,483 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 19:25:58,485 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 19:25:58,487 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 19:25:58,488 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 19:25:58,489 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 19:25:58,490 - json_generator - INFO - Validating generated JSON files
+2025-05-17 19:25:58,582 - json_generator - INFO - All files successfully validated
+2025-05-17 19:25:58,582 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 19:25:58,582 - json_generator - INFO - Fixing encoding in address_module.py
+2025-05-17 19:25:58,583 - json_generator - INFO - Created backup address_module.py.bak with encoding fixes
+2025-05-17 19:25:59,704 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 19:25:59,705 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 19:27:45,246 - json_generator - INFO - Starting JSON generation process
+2025-05-17 19:27:45,246 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 19:27:45,313 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 19:27:45,313 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 19:27:45,318 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 19:27:45,318 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 19:27:45,319 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 19:27:45,322 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 19:27:45,334 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 19:27:45,335 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 19:27:45,336 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 19:27:45,337 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 19:27:45,339 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 19:27:45,340 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 19:27:45,342 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 19:27:45,344 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 19:27:45,345 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 19:27:45,346 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 19:27:45,347 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 19:27:45,348 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 19:27:45,350 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 19:27:45,350 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 19:27:45,352 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 19:27:45,353 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 19:27:45,355 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 19:27:45,357 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 19:27:45,358 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 19:27:45,360 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 19:27:45,362 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 19:27:45,364 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 19:27:45,364 - json_generator - INFO - Validating generated JSON files
+2025-05-17 19:27:45,436 - json_generator - INFO - All files successfully validated
+2025-05-17 19:27:45,436 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 19:27:45,436 - json_generator - INFO - Fixing encoding in address_module.py
+2025-05-17 19:27:45,437 - json_generator - INFO - Created backup address_module.py.bak with encoding fixes
+2025-05-17 19:27:46,208 - json_generator - ERROR - Error testing with address_module.py: 'charmap' codec can't decode byte 0x90 in position 48: character maps to <undefined>
+2025-05-17 19:27:46,209 - json_generator - WARNING - JSON generation completed but testing with address_module.py failed
+2025-05-17 19:44:17,039 - json_generator - INFO - Starting JSON generation process
+2025-05-17 19:44:17,039 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 19:44:17,116 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 19:44:17,117 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 19:44:17,125 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 19:44:17,126 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 19:44:17,126 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 19:44:17,130 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 19:44:17,138 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 19:44:17,140 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 19:44:17,141 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 19:44:17,142 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 19:44:17,144 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 19:44:17,145 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 19:44:17,147 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 19:44:17,149 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 19:44:17,149 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 19:44:17,151 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 19:44:17,152 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 19:44:17,153 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 19:44:17,155 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 19:44:17,156 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 19:44:17,160 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 19:44:17,162 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 19:44:17,164 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 19:44:17,165 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 19:44:17,167 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 19:44:17,168 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 19:44:17,169 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 19:44:17,170 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 19:44:17,170 - json_generator - INFO - Validating generated JSON files
+2025-05-17 19:44:17,272 - json_generator - INFO - All files successfully validated
+2025-05-17 19:44:17,272 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 19:44:17,272 - json_generator - INFO - Fixing encoding in address_module.py
+2025-05-17 19:44:17,277 - json_generator - INFO - Created backup address_module.py.bak with encoding fixes
+2025-05-17 19:44:18,571 - json_generator - INFO - Successfully tested with address_module.py
+2025-05-17 19:44:18,572 - json_generator - INFO - JSON generation completed successfully
+2025-05-17 23:05:52,077 - json_generator - INFO - Starting JSON generation process
+2025-05-17 23:05:52,078 - json_generator - INFO - Loading master JSON from full_json_generated_data_vn_units.json
+2025-05-17 23:05:52,193 - json_generator - INFO - Successfully loaded master JSON with 63 provinces
+2025-05-17 23:05:52,193 - json_generator - INFO - Extracting administrative units from master JSON
+2025-05-17 23:05:52,202 - json_generator - INFO - Extracted 10727 total mappings across all relationship types
+2025-05-17 23:05:52,202 - json_generator - INFO - Saving extracted data to JSON files in generated_json
+2025-05-17 23:05:52,204 - json_generator - INFO - Saved huyen_phuong.json with 0 districts
+2025-05-17 23:05:52,210 - json_generator - INFO - Saved huyen_thitran.json with 458 districts
+2025-05-17 23:05:52,230 - json_generator - INFO - Saved huyen_xa.json with 488 districts
+2025-05-17 23:05:52,232 - json_generator - INFO - Saved quan_phuong.json with 49 districts
+2025-05-17 23:05:52,233 - json_generator - INFO - Saved quan_thitran.json with 0 districts
+2025-05-17 23:05:52,234 - json_generator - INFO - Saved quan_xa.json with 0 districts
+2025-05-17 23:05:52,237 - json_generator - INFO - Saved tp_phuong.json with 87 districts
+2025-05-17 23:05:52,238 - json_generator - INFO - Saved tp_thitran.json with 0 districts
+2025-05-17 23:05:52,239 - json_generator - INFO - Saved tp_xa.json with 79 districts
+2025-05-17 23:05:52,242 - json_generator - INFO - Saved tx_phuong.json with 52 districts
+2025-05-17 23:05:52,243 - json_generator - INFO - Saved tx_thitran.json with 0 districts
+2025-05-17 23:05:52,245 - json_generator - INFO - Saved tx_xa.json with 52 districts
+2025-05-17 23:05:52,246 - json_generator - INFO - Saved thanhpho_huyen.json with 4 provinces
+2025-05-17 23:05:52,247 - json_generator - INFO - Saved thanhpho_quan.json with 4 provinces
+2025-05-17 23:05:52,249 - json_generator - INFO - Saved tinh_huyen.json with 57 provinces
+2025-05-17 23:05:52,251 - json_generator - INFO - Saved tinh_quan.json with 0 provinces
+2025-05-17 23:05:52,253 - json_generator - INFO - Saved tinh_tp.json with 57 provinces
+2025-05-17 23:05:52,255 - json_generator - INFO - Saved tinh_tx.json with 34 provinces
+2025-05-17 23:05:52,257 - json_generator - INFO - Saved hcm_hn_huyen.json with 2 cities
+2025-05-17 23:05:52,259 - json_generator - INFO - Saved hcm_hn_quan.json with 2 cities
+2025-05-17 23:05:52,262 - json_generator - INFO - Saved hcm_hn_tx.json with 1 cities
+2025-05-17 23:05:52,263 - json_generator - INFO - Saved hcm_hn_tp.json with 1 cities
+2025-05-17 23:05:52,264 - json_generator - INFO - Saved qh_duong.json (initially empty)
+2025-05-17 23:05:52,266 - json_generator - INFO - Created basic chuanhoa.csv
+2025-05-17 23:05:52,266 - json_generator - INFO - Validating generated JSON files
+2025-05-17 23:05:52,406 - json_generator - INFO - All files successfully validated
+2025-05-17 23:05:52,406 - json_generator - INFO - Testing generated files with address_module.py
+2025-05-17 23:05:52,406 - json_generator - INFO - Fixing encoding in address_module.py
+2025-05-17 23:05:52,518 - json_generator - INFO - Created backup address_module.py.bak with encoding fixes
+2025-05-17 23:05:56,780 - json_generator - INFO - Successfully tested with address_module.py
+2025-05-17 23:05:56,781 - json_generator - INFO - JSON generation completed successfully
