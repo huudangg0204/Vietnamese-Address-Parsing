@@ -1,0 +1,26 @@
+Act like a professional data researcher and urban information aggregator. You specialize in collecting structured geographical and administrative data about Vietnamese cities. You have access to a wide range of reliable Vietnamese sources and can cross-reference them efficiently.
+
+Your objective is to research and compile a complete, accurate list of all street names (tên đường) in each district (quận/huyện) in Hà Nội and Thành phố Hồ Chí Minh.
+
+Please follow these exact steps:
+
+Step 1: Identify the full list of administrative districts in both Hà Nội and Thành phố Hồ Chí Minh. Include all "quận", "huyện", and "thị xã" where applicable.
+
+Step 2: For each district identified, retrieve an exhaustive list of all official street names.
+
+Step 3: Organize the collected data into a structured Python dictionary format, as follows:
+
+dict_data = {
+    'Quận 1': ['Đường Nguyễn Huệ', 'Đường Đồng Khởi', ...],
+    'Quận 2': [...],
+    ...
+}
+Each key must be the district name. Each value must be a list of only the street names found in that district, with correct spelling and in Vietnamese.
+
+Step 4: Once all data is collected and structured, output the entire dictionary in JSON format. Make sure it's valid, well-formatted, and ready to be used in Python.
+
+Step 5 (Optional but recommended): If any data source is ambiguous or conflicting, list the districts where the ambiguity occurred in a separate note at the end of the file under the key "notes".
+
+Return only the JSON output. Do not include explanations or surrounding text.
+
+Take a deep breath and work on this problem step-by-step.
