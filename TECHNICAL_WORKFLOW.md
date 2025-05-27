@@ -1,4 +1,4 @@
-# Vietnamese Address Processing Pipeline - Technical Documentation
+# Vietnamese Address Processing Pipeline
 
 ## 🔄 Data Processing Workflow
 
@@ -32,9 +32,9 @@ Generate hierarchical Vietnamese administrative unit dictionaries from master re
    - Special city handling for Hanoi and Ho Chi Minh City (`hcmhn/` folder)
 4. **Lowercase Conversion**: Normalize all dictionary keys and values to lowercase for consistent matching
 
-**Part 2: LLM-Generated Street Dictionaries (Automated)**
+**Part 2: LLM-Generated Street Dictionaries (Semi-automatic)**
 
-- **Street Dictionary Generation**: `qh_duong.json` created using Large Language Model (Grok3 + deepresearch modde)
+- **Street Dictionary Generation**: `qh_duong.json` created using Large Language Model (Grok3 + deepresearch mode)
 - **Prompt Source**: Processing instructions stored in `promt.txt`
 - **Character Normalization**: `chuanhoa.csv` used for standardizing common Vietnamese characters and abbreviations
 
@@ -120,7 +120,8 @@ Transform extracted address components into standardized format with official ad
 ### **Processing Logic**
 
 1. **Address Combination**: Reconstruct full addresses from extracted components
-2. **TSV Generation**: Create tab-separated value strings for search indexing
+   full_address = duong + px_cat + px + qh_cat + qh + tinh_cat + tinh
+2. **TSV Generation**: Create tsv (text search vector) strings for search indexing
 3. **ID Mapping**: Map administrative names to official government codes
    - Province names → Province IDs (2-digit codes)
    - District names → District IDs (3-digit codes)
@@ -140,7 +141,7 @@ Transform extracted address components into standardized format with official ad
   - `city_id`: Official 2-digit province/city code
   - `country_id`: Country identifier (Vietnam = 1)
   - `full_address`: Complete normalized address string
-  - `tsv`: Tab-separated searchable text for indexing
+  - `tsv`: Text serch vector
 
 ### **Key Functions**
 
@@ -177,37 +178,21 @@ graph TD
 - **Stage 2**: Verify extraction coverage and accuracy rates
 - **Stage 3**: Ensure ID mapping success and data completeness
 
----
+## Notes
 
-## ⚡ Performance Considerations
+### **Data Sources & Quality Considerations**
 
-### **Bottlenecks**
+1. **Address Database Source**
 
-- **Dictionary Loading**: Multiple JSON files loaded into memory
-- **Address Matching**: Rule-based parsing with multiple dictionary lookups
-- **File I/O**: Large Excel files for input/output operations
+   * Collected from: [vietnamese-provinces-database](https://github.com/ThangLeQuoc/vietnamese-provinces-database.git)
+   * maintained community-wise, subject to periodic updates
+   * There is no information about street names in the database.
+2. **Outdated Administrative Units**: the address file (`address_full_0712.xlsx`) contains legacy district names such as:
 
-### **Optimization Strategies**
+   * `"Quận 2"` → now part of **Thành phố Thủ Đức**
+   * `"Huyện Từ Liêm"` → split into **Quận Bắc Từ Liêm** and **Quận Nam Từ Liêm**
+   * ...
+3. **Data Accuracy of Road Mapping (`qh_duong.json`)** : generated with assistance from LLM models; some mappings may be  incomplete or imprecise , especially for
 
-- **Caching**: Keep dictionaries in memory between processing batches
-- **Parallel Processing**: Process address batches in parallel
-- **Indexing**: Pre-index dictionaries for faster lookups
-- **Memory Management**: Stream large files instead of loading entirely
-
----
-
-## 🛠 Error Handling Strategy
-
-### **Common Issues**
-
-- **Missing Dictionary Files**: Stage 1 incomplete or failed
-- **Address Format Variations**: Unexpected address structures
-- **Encoding Problems**: Vietnamese character handling
-- **ID Mapping Failures**: Names not found in reference data
-
-### **Mitigation Approaches**
-
-- **Graceful Degradation**: Continue processing with partial results
-- **Detailed Logging**: Track processing status and failure reasons
-- **Data Validation**: Pre-validate input formats and completeness
-- **Fallback Mechanisms**: Use alternative matching strategies for edge cases
+   * Newly formed streets
+   * Rare or ambiguous address components
