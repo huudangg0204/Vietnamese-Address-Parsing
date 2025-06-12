@@ -165,7 +165,7 @@ def map_row_to_output_format(input_row_data, admin_mapper_instance, current_id, 
     district_id = admin_mapper_instance.get_district_id(qh_name, city_id) if city_id else None
     ward_id = admin_mapper_instance.get_ward_id(px_name, district_id) if district_id else None
     
-    street_id = None # Theo yêu cầu "street_id thì để là none hoặc khoảng trắng"
+    street_id = None # khong có thông tin về đường trong csdl
 
     return {
         'id': current_id,
